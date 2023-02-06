@@ -27,10 +27,10 @@ w3 = npr.normal(loc=0.0, scale=0.01, size=5)
 
 # Conclusion: the weights are different every time npr.normal is called
 
-#
-## =============================================================================
-## Initialise values for weights WITH seed
-## =============================================================================
+
+# =============================================================================
+# Initialise values for weights WITH seed
+# =============================================================================
 
 # Set seed for random state
 rs_state_seed = 77
@@ -46,7 +46,7 @@ w6 = rgen.normal(loc=0.0, scale=0.01, size=5)
 
 # Conclusion: the weights are identical every time npr.normal is called,
 # provided that npr.RandomState is called with same seed every time prior to 
-# calilng npr.normal
+# calling npr.normal
 
 
 
